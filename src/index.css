@@ -3,6 +3,11 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  color: #213547;
+  background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
+}
+
 *,
 *::after,
 *::before {
@@ -13,9 +18,6 @@ html {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color: #213547;
-  background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
