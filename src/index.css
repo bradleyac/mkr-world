@@ -1,13 +1,12 @@
 body,
 html {
   box-sizing: border-box;
-  height: 100lvh;
-  width: 100lvw;
 }
 
 body {
   color: #213547;
   background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
+  background-size: cover;
 }
 
 *,
