@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  background: radial-gradient(oklch(.75 .2 310), oklch(.75 .2 150));
   overflow: hidden;
-  background-color: oklch(.75 .2 150);
+  background-color: oklch(.75 .1 150);
+  background-size: contain;
 }
 
 body {

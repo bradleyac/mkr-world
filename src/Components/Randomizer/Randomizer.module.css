@@ -51,6 +51,8 @@
 .randomizerContainer {
   padding: 2em;
   border-radius: 2em;
+  background: radial-gradient(closest-side ellipse at center, oklch(.75 .2 310), oklch(.75 .1 150));
+  height: min-content;
 
   button {
     font-size: 2em;
