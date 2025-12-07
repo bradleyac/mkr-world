@@ -5,7 +5,7 @@
   -ms-user-select: none;
   user-select: none;
 
-  width: 7vw;
+  width: 80%;
   opacity: .5;
 
   &.banned {
@@ -18,10 +18,10 @@
 }
 
 .itemList {
-  width: 80vw;
+  width: min-content;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(7, 10em);
+  grid-template-rows: repeat(3, 10em);
   gap: 1em;
   position: relative;
 }
@@ -37,6 +37,7 @@
   padding: .5em;
   aspect-ratio: 1 / 1;
   background-color: oklch(.4 .05 310);
+  width: 100%;
 
   &:has(.selected) {
     background-color: white;
@@ -51,8 +52,8 @@
 .randomizerContainer {
   padding: 2em;
   border-radius: 2em;
-  background: radial-gradient(closest-side ellipse at center, oklch(.75 .2 310), oklch(.75 .1 150));
   height: min-content;
+  aspect-ratio: 5 / 7;
 
   button {
     font-size: 2em;
