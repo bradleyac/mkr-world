@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
+  background-size: 200lvw 200lvh;
   overflow: hidden;
 }
 
