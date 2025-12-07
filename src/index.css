@@ -1,13 +1,13 @@
-body,
 html {
   box-sizing: border-box;
+  background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
+  overflow: hidden;
 }
 
 body {
   color: #213547;
-  background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150));
-  background-color: oklch(.75 .2 310);
-  background-size: cover;
+  /* background: linear-gradient(45deg, oklch(.75 .2 310), oklch(.75 .2 150)); */
+  /* background-color: oklch(.75 .2 310); */
 }
 
 *,
